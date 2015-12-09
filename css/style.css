@@ -1290,6 +1290,18 @@ address {
 .description-xs_sm-text {
   display: none;
 }
+.team img {
+  display: inline-block;
+  width: 18.4%;
+  margin: 1%;
+  box-sizing: border-box;
+}
+.team img:first-child {
+  margin-left: 0;
+}
+.team img:last-child {
+  margin-right: 0;
+}
 }
 
 @media (max-width: 1200px) {
@@ -1303,15 +1315,3 @@ address {
   text-align: center;
 }
 
-.team img {
-  display: inline-block;
-  width: 18.4%;
-  margin: 1%;
-  box-sizing: border-box;
-}
-.team img:first-child {
-  margin-left: 0;
-}
-.team img:last-child {
-  margin-right: 0;
-}
