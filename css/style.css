@@ -1280,14 +1280,17 @@ address {
     width: 815px;
   }
 .nav {}
-
 .row{
   display: flex;
   flex-wrap: wrap;
 }
-
 .about-images img {
   display: block;
 }
+}
 
+@media (max-width: 1200px) {
+  .nonvisible{
+    display: none;
+  }
 }
