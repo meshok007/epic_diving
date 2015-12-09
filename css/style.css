@@ -1287,10 +1287,14 @@ address {
 .about-images img {
   display: block;
 }
+.description-xs_sm-text {
+  display: none;
+}
 }
 
 @media (max-width: 1200px) {
   .nonvisible{
     display: none;
   }
+
 }
