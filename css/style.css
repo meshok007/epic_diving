@@ -1285,3 +1285,9 @@ address {
   display: flex;
   flex-wrap: wrap;
 }
+
+.about-images img {
+  display: block;
+}
+
+}
